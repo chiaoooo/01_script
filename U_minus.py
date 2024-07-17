@@ -1,6 +1,6 @@
 # 定義檔案路徑
-big5_file = 'big5.txt'
-train_file = 'train.txt'
+big5_file = 'U.txt'
+train_file = 'S.txt'
 val_file = 'val.txt'
 
 # 讀取big5檔案內容，逐字處理
