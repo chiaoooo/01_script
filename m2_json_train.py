@@ -26,7 +26,7 @@ data_dict = {"CP950": character_data}
 data_dict2 = {"twTrain": unicode_characters}
 
 # 保存文件
-with open("ntut_script/CP950.json", "w", encoding="utf-8") as json_file:
+with open("script_ntut/CP950.json", "w", encoding="utf-8") as json_file:
     json.dump(data_dict, json_file, ensure_ascii=False, indent=2)
 
 json_text = json.dumps(data_dict2, ensure_ascii=False, separators=(', ', ':')).replace("\\\\", "\\")
